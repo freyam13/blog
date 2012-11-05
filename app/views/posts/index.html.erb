@@ -1,0 +1,37 @@
+<header><div class="blog_title">AARON <br> FREY <br> web development<br> & design </div></header>
+
+<nav>      
+           <%= link_to ' Home | ', posts_path %>	
+ 	       <%= link_to ' About | ', "#" %>
+           <%= link_to ' Projects | ', "#" %>
+	       <%= link_to ' Contact | ', "#" %>
+	admin: <%= link_to 'login', new_post_path %>
+</nav>
+
+<div class="blog_post">
+<% @posts.reverse.each do |post| %>
+    <h2><%= link_to post.title, post_url(post.id) %></h2>
+
+    <h5><%= post.created_at.strftime("%B %d, %Y")%></h5>
+
+    <%= raw(post.content) %>
+    <h5><%= post.tags %></h5>
+
+    <h5><%= link_to 'Edit', edit_post_path(post) %>
+    <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></h5>
+<% end %>
+</div>
+
+<aside>
+	<h2>Twitter Feed</h2>
+	
+	<p>Under construction...</p>
+	
+</aside>	
+	
+<aside_bottom>
+	<h2>Instagram Feed</h2>	
+	
+	<p>Under construction...</p>
+	
+</aside_bottom>

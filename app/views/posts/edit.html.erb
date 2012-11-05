@@ -1,0 +1,18 @@
+<nav>      
+           <%= link_to ' Home | ', posts_path %>	
+ 	       <%= link_to ' About | ', "#" %>
+           <%= link_to ' Projects | ', "#" %>
+	       <%= link_to ' Contact | ', "#" %>
+	admin: <%= link_to 'login', new_post_path %>
+</nav>
+
+<div class="blog_post">
+
+<h1>Editing post</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @post %> |
+<%= link_to 'Back', posts_path %>
+
+</div>
