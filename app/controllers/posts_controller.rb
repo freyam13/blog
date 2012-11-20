@@ -1,9 +1,17 @@
 class PostsController < ApplicationController
   
-  http_basic_authenticate_with :name => "aaron", :password => "tsl2012", :except => :index
+  # http_basic_authenticate_with :name => "aaron", :password => "tsl2012", :except => :index
   
   # require 'tweetstream'
+    
+  before_filter :require_admin, :except => [:index, :show]
   
+  def require_admin
+    user = User.find_by_id(session[:user_id])
+    if !user.present? || !user.admin
+      redirect_to root_url, :notice => 'Must be admin.'
+    end
+  end
   
   # GET /posts
   # GET /posts.json
