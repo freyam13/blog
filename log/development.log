@@ -47566,3 +47566,1750 @@ Served asset /github.png - 304 Not Modified (0ms)
 
 Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:12:36 -0600
 Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:00 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:33:01 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:33:01 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:33:01 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started POST "/sessions/create" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "email"=>"freyam13@hotmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'freyam13@hotmail.com' LIMIT 1
+Redirected to http://localhost:3000/posts/new
+Completed 302 Found in 345ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered posts/_form.html.erb (3.8ms)
+  Rendered posts/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:33:16 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:33:39 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (27.7ms)
+  Rendered posts/edit.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:33:42 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/9" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"Heroku: part deux", "content"=>"Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I'm back. This time I will succeed or die trying.  I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.\r\n</br>\r\nheroku login\r\n</br>\r\nbundle install\r\n</br>\r\ngit push heroku master\r\n</br>\r\nCounting objects: 210, done.\r\nDelta compression using up to 4 threads.\r\nCompressing objects: 100% (112/112), done.\r\nWriting objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.\r\nTotal 139 (delta 40), reused 0 (delta 0)\r\n\r\n-----> Heroku receiving push\r\n-----> Removing .DS_Store files\r\n-----> Ruby/Rails app detected\r\n-----> Using Ruby version: ruby-1.9.3\r\n-----> Installing dependencies using Bundler version 1.2.1\r\n       Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment\r\n       Fetching gem metadata from https://rubygems.org/.........\r\n       Fetching gem metadata from https://rubygems.org/..\r\n       Using rake (0.9.2.2)\r\n       Using i18n (0.6.1)\r\n       Using multi_json (1.3.7)\r\n       Using activesupport (3.2.8)\r\n       Using builder (3.0.4)\r\n       Using activemodel (3.2.8)\r\n       Using erubis (2.7.0)\r\n       Using journey (1.0.4)\r\n       Using rack (1.4.1)\r\n       Using rack-cache (1.2)\r\n       Using rack-test (0.6.2)\r\n       Using hike (1.2.1)\r\n       Using tilt (1.3.3)\r\n       Using sprockets (2.1.3)\r\n       Using actionpack (3.2.8)\r\n       Using mime-types (1.19)\r\n       Using polyglot (0.3.3)\r\n       Using treetop (1.4.12)\r\n       Using mail (2.4.4)\r\n       Using actionmailer (3.2.8)\r\n       Using arel (3.0.2)\r\n       Using tzinfo (0.3.35)\r\n       Using activerecord (3.2.8)\r\n       Using activeresource (3.2.8)\r\n       Installing bcrypt-ruby (3.0.1) with native extensions\r\n       Using coffee-script-source (1.4.0)\r\n       Using execjs (1.4.0)\r\n       Using coffee-script (2.2.0)\r\n       Using rack-ssl (1.3.2)\r\n       Using json (1.7.5)\r\n       Using rdoc (3.12)\r\n       Using thor (0.16.0)\r\n       Using railties (3.2.8)\r\n       Using coffee-rails (3.2.2)\r\n       Using jquery-rails (2.1.3)\r\n       Using pg (0.14.1)\r\n       Using bundler (1.2.1)\r\n       Using rails (3.2.8)\r\n       Using sass (3.2.2)\r\n       Using sass-rails (3.2.5)\r\n       Using uglifier (1.3.0)\r\n       Your bundle is complete! It was installed into ./vendor/bundle\r\n       Cleaning up the bundler cache.\r\n       Removing launchy (2.1.2)\r\n       Removing addressable (2.3.2)\r\n       Removing excon (0.16.7)\r\n       Removing rest-client (1.6.7)\r\n       Removing netrc (0.7.7)\r\n       Removing thin (1.5.0)\r\n       Removing heroku-api (0.3.6)\r\n       Removing rubyzip (0.9.9)\r\n       Removing heroku (2.33.0)\r\n       Removing daemons (1.1.9)\r\n       Removing eventmachine (1.0.0)\r\n-----> Writing config/database.yml to read from DATABASE_URL\r\n-----> Preparing app for Rails asset pipeline\r\n       Running: rake assets:precompile\r\n       Asset precompilation completed (17.65s)\r\n-----> Rails plugin injection\r\n       Injecting rails_log_stdout\r\n       Injecting rails3_serve_static_assets\r\n-----> Discovering process types\r\n       Procfile declares types      -> (none)\r\n       Default types for Ruby/Rails -> console, rake, web, worker\r\n-----> Compiled slug size: 20.8MB\r\n-----> Launching... done, v7\r\n       http://intense-hollows-6785.herokuapp.com deployed to Heroku\r\n\r\nTo git@heroku.com:intense-hollows-6785.git\r\n   814a07b..d6f73d8  master -> master\r\n</br>\r\n\r\n", "tags"=>"Blerg"}, "commit"=>"Update Post", "id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "posts" SET "content" = 'Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I''m back. This time I will succeed or die trying. I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.
+</br>
+heroku login
+</br>
+bundle install
+</br>
+git push heroku master
+</br>
+Counting objects: 210, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.
+Total 139 (delta 40), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Removing .DS_Store files
+-----> Ruby/Rails app detected
+-----> Using Ruby version: ruby-1.9.3
+-----> Installing dependencies using Bundler version 1.2.1
+ Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment
+ Fetching gem metadata from https://rubygems.org/.........
+ Fetching gem metadata from https://rubygems.org/..
+ Using rake (0.9.2.2)
+ Using i18n (0.6.1)
+ Using multi_json (1.3.7)
+ Using activesupport (3.2.8)
+ Using builder (3.0.4)
+ Using activemodel (3.2.8)
+ Using erubis (2.7.0)
+ Using journey (1.0.4)
+ Using rack (1.4.1)
+ Using rack-cache (1.2)
+ Using rack-test (0.6.2)
+ Using hike (1.2.1)
+ Using tilt (1.3.3)
+ Using sprockets (2.1.3)
+ Using actionpack (3.2.8)
+ Using mime-types (1.19)
+ Using polyglot (0.3.3)
+ Using treetop (1.4.12)
+ Using mail (2.4.4)
+ Using actionmailer (3.2.8)
+ Using arel (3.0.2)
+ Using tzinfo (0.3.35)
+ Using activerecord (3.2.8)
+ Using activeresource (3.2.8)
+ Installing bcrypt-ruby (3.0.1) with native extensions
+ Using coffee-script-source (1.4.0)
+ Using execjs (1.4.0)
+ Using coffee-script (2.2.0)
+ Using rack-ssl (1.3.2)
+ Using json (1.7.5)
+ Using rdoc (3.12)
+ Using thor (0.16.0)
+ Using railties (3.2.8)
+ Using coffee-rails (3.2.2)
+ Using jquery-rails (2.1.3)
+ Using pg (0.14.1)
+ Using bundler (1.2.1)
+ Using rails (3.2.8)
+ Using sass (3.2.2)
+ Using sass-rails (3.2.5)
+ Using uglifier (1.3.0)
+ Your bundle is complete! It was installed into ./vendor/bundle
+ Cleaning up the bundler cache.
+ Removing launchy (2.1.2)
+ Removing addressable (2.3.2)
+ Removing excon (0.16.7)
+ Removing rest-client (1.6.7)
+ Removing netrc (0.7.7)
+ Removing thin (1.5.0)
+ Removing heroku-api (0.3.6)
+ Removing rubyzip (0.9.9)
+ Removing heroku (2.33.0)
+ Removing daemons (1.1.9)
+ Removing eventmachine (1.0.0)
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+ Running: rake assets:precompile
+ Asset precompilation completed (17.65s)
+-----> Rails plugin injection
+ Injecting rails_log_stdout
+ Injecting rails3_serve_static_assets
+-----> Discovering process types
+ Procfile declares types -> (none)
+ Default types for Ruby/Rails -> console, rake, web, worker
+-----> Compiled slug size: 20.8MB
+-----> Launching... done, v7
+ http://intense-hollows-6785.herokuapp.com deployed to Heroku
+
+To git@heroku.com:intense-hollows-6785.git
+ 814a07b..d6f73d8 master -> master
+</br>
+
+', "updated_at" = '2012-11-20 23:38:47.479144' WHERE "posts"."id" = 9
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/9
+Completed 302 Found in 11ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:38:47 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (4.7ms)
+  Rendered posts/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:39:19 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/9" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"Heroku: part deux", "content"=>"Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I'm back. This time I will succeed or die trying.  I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.\r\n</br></br>\r\nheroku login\r\n</br>\r\nbundle install\r\n</br>\r\ngit push heroku master\r\n</br></br>\r\nCounting objects: 210, done.\r\nDelta compression using up to 4 threads.\r\nCompressing objects: 100% (112/112), done.\r\nWriting objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.\r\nTotal 139 (delta 40), reused 0 (delta 0)\r\n\r\n-----> Heroku receiving push\r\n-----> Removing .DS_Store files\r\n-----> Ruby/Rails app detected\r\n-----> Using Ruby version: ruby-1.9.3\r\n-----> Installing dependencies using Bundler version 1.2.1\r\n       Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment\r\n       Fetching gem metadata from https://rubygems.org/.........\r\n       Fetching gem metadata from https://rubygems.org/..\r\n       Using rake (0.9.2.2)\r\n       Using i18n (0.6.1)\r\n       Using multi_json (1.3.7)\r\n       Using activesupport (3.2.8)\r\n       Using builder (3.0.4)\r\n       Using activemodel (3.2.8)\r\n       Using erubis (2.7.0)\r\n       Using journey (1.0.4)\r\n       Using rack (1.4.1)\r\n       Using rack-cache (1.2)\r\n       Using rack-test (0.6.2)\r\n       Using hike (1.2.1)\r\n       Using tilt (1.3.3)\r\n       Using sprockets (2.1.3)\r\n       Using actionpack (3.2.8)\r\n       Using mime-types (1.19)\r\n       Using polyglot (0.3.3)\r\n       Using treetop (1.4.12)\r\n       Using mail (2.4.4)\r\n       Using actionmailer (3.2.8)\r\n       Using arel (3.0.2)\r\n       Using tzinfo (0.3.35)\r\n       Using activerecord (3.2.8)\r\n       Using activeresource (3.2.8)\r\n       Installing bcrypt-ruby (3.0.1) with native extensions\r\n       Using coffee-script-source (1.4.0)\r\n       Using execjs (1.4.0)\r\n       Using coffee-script (2.2.0)\r\n       Using rack-ssl (1.3.2)\r\n       Using json (1.7.5)\r\n       Using rdoc (3.12)\r\n       Using thor (0.16.0)\r\n       Using railties (3.2.8)\r\n       Using coffee-rails (3.2.2)\r\n       Using jquery-rails (2.1.3)\r\n       Using pg (0.14.1)\r\n       Using bundler (1.2.1)\r\n       Using rails (3.2.8)\r\n       Using sass (3.2.2)\r\n       Using sass-rails (3.2.5)\r\n       Using uglifier (1.3.0)\r\n       Your bundle is complete! It was installed into ./vendor/bundle\r\n       Cleaning up the bundler cache.\r\n       Removing launchy (2.1.2)\r\n       Removing addressable (2.3.2)\r\n       Removing excon (0.16.7)\r\n       Removing rest-client (1.6.7)\r\n       Removing netrc (0.7.7)\r\n       Removing thin (1.5.0)\r\n       Removing heroku-api (0.3.6)\r\n       Removing rubyzip (0.9.9)\r\n       Removing heroku (2.33.0)\r\n       Removing daemons (1.1.9)\r\n       Removing eventmachine (1.0.0)\r\n-----> Writing config/database.yml to read from DATABASE_URL\r\n-----> Preparing app for Rails asset pipeline\r\n       Running: rake assets:precompile\r\n       Asset precompilation completed (17.65s)\r\n-----> Rails plugin injection\r\n       Injecting rails_log_stdout\r\n       Injecting rails3_serve_static_assets\r\n-----> Discovering process types\r\n       Procfile declares types      -> (none)\r\n       Default types for Ruby/Rails -> console, rake, web, worker\r\n-----> Compiled slug size: 20.8MB\r\n-----> Launching... done, v7\r\n       http://intense-hollows-6785.herokuapp.com deployed to Heroku\r\n\r\nTo git@heroku.com:intense-hollows-6785.git\r\n   814a07b..d6f73d8  master -> master\r\n</br>\r\n", "tags"=>"Blerg"}, "commit"=>"Update Post", "id"=>"9"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "posts" SET "content" = 'Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I''m back. This time I will succeed or die trying. I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.
+</br></br>
+heroku login
+</br>
+bundle install
+</br>
+git push heroku master
+</br></br>
+Counting objects: 210, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.
+Total 139 (delta 40), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Removing .DS_Store files
+-----> Ruby/Rails app detected
+-----> Using Ruby version: ruby-1.9.3
+-----> Installing dependencies using Bundler version 1.2.1
+ Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment
+ Fetching gem metadata from https://rubygems.org/.........
+ Fetching gem metadata from https://rubygems.org/..
+ Using rake (0.9.2.2)
+ Using i18n (0.6.1)
+ Using multi_json (1.3.7)
+ Using activesupport (3.2.8)
+ Using builder (3.0.4)
+ Using activemodel (3.2.8)
+ Using erubis (2.7.0)
+ Using journey (1.0.4)
+ Using rack (1.4.1)
+ Using rack-cache (1.2)
+ Using rack-test (0.6.2)
+ Using hike (1.2.1)
+ Using tilt (1.3.3)
+ Using sprockets (2.1.3)
+ Using actionpack (3.2.8)
+ Using mime-types (1.19)
+ Using polyglot (0.3.3)
+ Using treetop (1.4.12)
+ Using mail (2.4.4)
+ Using actionmailer (3.2.8)
+ Using arel (3.0.2)
+ Using tzinfo (0.3.35)
+ Using activerecord (3.2.8)
+ Using activeresource (3.2.8)
+ Installing bcrypt-ruby (3.0.1) with native extensions
+ Using coffee-script-source (1.4.0)
+ Using execjs (1.4.0)
+ Using coffee-script (2.2.0)
+ Using rack-ssl (1.3.2)
+ Using json (1.7.5)
+ Using rdoc (3.12)
+ Using thor (0.16.0)
+ Using railties (3.2.8)
+ Using coffee-rails (3.2.2)
+ Using jquery-rails (2.1.3)
+ Using pg (0.14.1)
+ Using bundler (1.2.1)
+ Using rails (3.2.8)
+ Using sass (3.2.2)
+ Using sass-rails (3.2.5)
+ Using uglifier (1.3.0)
+ Your bundle is complete! It was installed into ./vendor/bundle
+ Cleaning up the bundler cache.
+ Removing launchy (2.1.2)
+ Removing addressable (2.3.2)
+ Removing excon (0.16.7)
+ Removing rest-client (1.6.7)
+ Removing netrc (0.7.7)
+ Removing thin (1.5.0)
+ Removing heroku-api (0.3.6)
+ Removing rubyzip (0.9.9)
+ Removing heroku (2.33.0)
+ Removing daemons (1.1.9)
+ Removing eventmachine (1.0.0)
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+ Running: rake assets:precompile
+ Asset precompilation completed (17.65s)
+-----> Rails plugin injection
+ Injecting rails_log_stdout
+ Injecting rails3_serve_static_assets
+-----> Discovering process types
+ Procfile declares types -> (none)
+ Default types for Ruby/Rails -> console, rake, web, worker
+-----> Compiled slug size: 20.8MB
+-----> Launching... done, v7
+ http://intense-hollows-6785.herokuapp.com deployed to Heroku
+
+To git@heroku.com:intense-hollows-6785.git
+ 814a07b..d6f73d8 master -> master
+</br>
+', "updated_at" = '2012-11-20 23:39:31.540846' WHERE "posts"."id" = 9
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/9
+Completed 302 Found in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:39:31 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (3.7ms)
+  Rendered posts/edit.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:40:27 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/9" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"Heroku: part deux", "content"=>"Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I'm back. This time I will succeed or die trying.  I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.\r\n</br></br>\r\nheroku login\r\n</br>\r\nbundle install\r\n</br>\r\ngit push heroku master\r\n</br></br>\r\nCounting objects: 210, done.\r\nDelta compression using up to 4 threads.\r\nCompressing objects: 100% (112/112), done.\r\nWriting objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.\r\nTotal 139 (delta 40), reused 0 (delta 0)\r\n\r\n-----> Heroku receiving push\r\n-----> Removing .DS_Store files\r\n-----> Ruby/Rails app detected\r\n-----> Using Ruby version: ruby-1.9.3\r\n-----> Installing dependencies using Bundler version 1.2.1\r\n       Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment\r\n       Fetching gem metadata from https://rubygems.org/.........\r\n       Fetching gem metadata from https://rubygems.org/..\r\n       Using rake (0.9.2.2)\r\n       Using i18n (0.6.1)\r\n       Using multi_json (1.3.7)\r\n       Using activesupport (3.2.8)\r\n       Using builder (3.0.4)\r\n       Using activemodel (3.2.8)\r\n       Using erubis (2.7.0)\r\n       Using journey (1.0.4)\r\n       Using rack (1.4.1)\r\n       Using rack-cache (1.2)\r\n       Using rack-test (0.6.2)\r\n       Using hike (1.2.1)\r\n       Using tilt (1.3.3)\r\n       Using sprockets (2.1.3)\r\n       Using actionpack (3.2.8)\r\n       Using mime-types (1.19)\r\n       Using polyglot (0.3.3)\r\n       Using treetop (1.4.12)\r\n       Using mail (2.4.4)\r\n       Using actionmailer (3.2.8)\r\n       Using arel (3.0.2)\r\n       Using tzinfo (0.3.35)\r\n       Using activerecord (3.2.8)\r\n       Using activeresource (3.2.8)\r\n       Installing bcrypt-ruby (3.0.1) with native extensions\r\n       Using coffee-script-source (1.4.0)\r\n       Using execjs (1.4.0)\r\n       Using coffee-script (2.2.0)\r\n       Using rack-ssl (1.3.2)\r\n       Using json (1.7.5)\r\n       Using rdoc (3.12)\r\n       Using thor (0.16.0)\r\n       Using railties (3.2.8)\r\n       Using coffee-rails (3.2.2)\r\n       Using jquery-rails (2.1.3)\r\n       Using pg (0.14.1)\r\n       Using bundler (1.2.1)\r\n       Using rails (3.2.8)\r\n       Using sass (3.2.2)\r\n       Using sass-rails (3.2.5)\r\n       Using uglifier (1.3.0)\r\n       Your bundle is complete! It was installed into ./vendor/bundle\r\n       Cleaning up the bundler cache.\r\n       Removing launchy (2.1.2)\r\n       Removing addressable (2.3.2)\r\n       Removing excon (0.16.7)\r\n       Removing rest-client (1.6.7)\r\n       Removing netrc (0.7.7)\r\n       Removing thin (1.5.0)\r\n       Removing heroku-api (0.3.6)\r\n       Removing rubyzip (0.9.9)\r\n       Removing heroku (2.33.0)\r\n       Removing daemons (1.1.9)\r\n       Removing eventmachine (1.0.0)\r\n-----> Writing config/database.yml to read from DATABASE_URL\r\n-----> Preparing app for Rails asset pipeline\r\n       Running: rake assets:precompile\r\n       Asset precompilation completed (17.65s)\r\n-----> Rails plugin injection\r\n       Injecting rails_log_stdout\r\n       Injecting rails3_serve_static_assets\r\n-----> Discovering process types\r\n       Procfile declares types      -> (none)\r\n       Default types for Ruby/Rails -> console, rake, web, worker\r\n-----> Compiled slug size: 20.8MB\r\n-----> Launching... done, v7\r\n       http://intense-hollows-6785.herokuapp.com deployed to Heroku\r\n\r\nTo git@heroku.com:intense-hollows-6785.git\r\n   814a07b..d6f73d8  master -> master\r\n</br>\r\nheroku ps:scale web=1\r\n</br>\r\n", "tags"=>"Blerg"}, "commit"=>"Update Post", "id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "posts" SET "content" = 'Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I''m back. This time I will succeed or die trying. I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.
+</br></br>
+heroku login
+</br>
+bundle install
+</br>
+git push heroku master
+</br></br>
+Counting objects: 210, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.
+Total 139 (delta 40), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Removing .DS_Store files
+-----> Ruby/Rails app detected
+-----> Using Ruby version: ruby-1.9.3
+-----> Installing dependencies using Bundler version 1.2.1
+ Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment
+ Fetching gem metadata from https://rubygems.org/.........
+ Fetching gem metadata from https://rubygems.org/..
+ Using rake (0.9.2.2)
+ Using i18n (0.6.1)
+ Using multi_json (1.3.7)
+ Using activesupport (3.2.8)
+ Using builder (3.0.4)
+ Using activemodel (3.2.8)
+ Using erubis (2.7.0)
+ Using journey (1.0.4)
+ Using rack (1.4.1)
+ Using rack-cache (1.2)
+ Using rack-test (0.6.2)
+ Using hike (1.2.1)
+ Using tilt (1.3.3)
+ Using sprockets (2.1.3)
+ Using actionpack (3.2.8)
+ Using mime-types (1.19)
+ Using polyglot (0.3.3)
+ Using treetop (1.4.12)
+ Using mail (2.4.4)
+ Using actionmailer (3.2.8)
+ Using arel (3.0.2)
+ Using tzinfo (0.3.35)
+ Using activerecord (3.2.8)
+ Using activeresource (3.2.8)
+ Installing bcrypt-ruby (3.0.1) with native extensions
+ Using coffee-script-source (1.4.0)
+ Using execjs (1.4.0)
+ Using coffee-script (2.2.0)
+ Using rack-ssl (1.3.2)
+ Using json (1.7.5)
+ Using rdoc (3.12)
+ Using thor (0.16.0)
+ Using railties (3.2.8)
+ Using coffee-rails (3.2.2)
+ Using jquery-rails (2.1.3)
+ Using pg (0.14.1)
+ Using bundler (1.2.1)
+ Using rails (3.2.8)
+ Using sass (3.2.2)
+ Using sass-rails (3.2.5)
+ Using uglifier (1.3.0)
+ Your bundle is complete! It was installed into ./vendor/bundle
+ Cleaning up the bundler cache.
+ Removing launchy (2.1.2)
+ Removing addressable (2.3.2)
+ Removing excon (0.16.7)
+ Removing rest-client (1.6.7)
+ Removing netrc (0.7.7)
+ Removing thin (1.5.0)
+ Removing heroku-api (0.3.6)
+ Removing rubyzip (0.9.9)
+ Removing heroku (2.33.0)
+ Removing daemons (1.1.9)
+ Removing eventmachine (1.0.0)
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+ Running: rake assets:precompile
+ Asset precompilation completed (17.65s)
+-----> Rails plugin injection
+ Injecting rails_log_stdout
+ Injecting rails3_serve_static_assets
+-----> Discovering process types
+ Procfile declares types -> (none)
+ Default types for Ruby/Rails -> console, rake, web, worker
+-----> Compiled slug size: 20.8MB
+-----> Launching... done, v7
+ http://intense-hollows-6785.herokuapp.com deployed to Heroku
+
+To git@heroku.com:intense-hollows-6785.git
+ 814a07b..d6f73d8 master -> master
+</br>
+heroku ps:scale web=1
+</br>
+', "updated_at" = '2012-11-20 23:40:54.604408' WHERE "posts"."id" = 9
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/9
+Completed 302 Found in 7ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:40:54 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (4.3ms)
+  Rendered posts/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:40:59 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/9" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"Heroku: part deux", "content"=>"Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I'm back. This time I will succeed or die trying.  I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.\r\n</br></br>\r\nheroku login\r\n</br>\r\nbundle install\r\n</br>\r\ngit push heroku master\r\n</br></br>\r\nCounting objects: 210, done.\r\nDelta compression using up to 4 threads.\r\nCompressing objects: 100% (112/112), done.\r\nWriting objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.\r\nTotal 139 (delta 40), reused 0 (delta 0)\r\n\r\n-----> Heroku receiving push\r\n-----> Removing .DS_Store files\r\n-----> Ruby/Rails app detected\r\n-----> Using Ruby version: ruby-1.9.3\r\n-----> Installing dependencies using Bundler version 1.2.1\r\n       Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment\r\n       Fetching gem metadata from https://rubygems.org/.........\r\n       Fetching gem metadata from https://rubygems.org/..\r\n       Using rake (0.9.2.2)\r\n       Using i18n (0.6.1)\r\n       Using multi_json (1.3.7)\r\n       Using activesupport (3.2.8)\r\n       Using builder (3.0.4)\r\n       Using activemodel (3.2.8)\r\n       Using erubis (2.7.0)\r\n       Using journey (1.0.4)\r\n       Using rack (1.4.1)\r\n       Using rack-cache (1.2)\r\n       Using rack-test (0.6.2)\r\n       Using hike (1.2.1)\r\n       Using tilt (1.3.3)\r\n       Using sprockets (2.1.3)\r\n       Using actionpack (3.2.8)\r\n       Using mime-types (1.19)\r\n       Using polyglot (0.3.3)\r\n       Using treetop (1.4.12)\r\n       Using mail (2.4.4)\r\n       Using actionmailer (3.2.8)\r\n       Using arel (3.0.2)\r\n       Using tzinfo (0.3.35)\r\n       Using activerecord (3.2.8)\r\n       Using activeresource (3.2.8)\r\n       Installing bcrypt-ruby (3.0.1) with native extensions\r\n       Using coffee-script-source (1.4.0)\r\n       Using execjs (1.4.0)\r\n       Using coffee-script (2.2.0)\r\n       Using rack-ssl (1.3.2)\r\n       Using json (1.7.5)\r\n       Using rdoc (3.12)\r\n       Using thor (0.16.0)\r\n       Using railties (3.2.8)\r\n       Using coffee-rails (3.2.2)\r\n       Using jquery-rails (2.1.3)\r\n       Using pg (0.14.1)\r\n       Using bundler (1.2.1)\r\n       Using rails (3.2.8)\r\n       Using sass (3.2.2)\r\n       Using sass-rails (3.2.5)\r\n       Using uglifier (1.3.0)\r\n       Your bundle is complete! It was installed into ./vendor/bundle\r\n       Cleaning up the bundler cache.\r\n       Removing launchy (2.1.2)\r\n       Removing addressable (2.3.2)\r\n       Removing excon (0.16.7)\r\n       Removing rest-client (1.6.7)\r\n       Removing netrc (0.7.7)\r\n       Removing thin (1.5.0)\r\n       Removing heroku-api (0.3.6)\r\n       Removing rubyzip (0.9.9)\r\n       Removing heroku (2.33.0)\r\n       Removing daemons (1.1.9)\r\n       Removing eventmachine (1.0.0)\r\n-----> Writing config/database.yml to read from DATABASE_URL\r\n-----> Preparing app for Rails asset pipeline\r\n       Running: rake assets:precompile\r\n       Asset precompilation completed (17.65s)\r\n-----> Rails plugin injection\r\n       Injecting rails_log_stdout\r\n       Injecting rails3_serve_static_assets\r\n-----> Discovering process types\r\n       Procfile declares types      -> (none)\r\n       Default types for Ruby/Rails -> console, rake, web, worker\r\n-----> Compiled slug size: 20.8MB\r\n-----> Launching... done, v7\r\n       http://intense-hollows-6785.herokuapp.com deployed to Heroku\r\n\r\nTo git@heroku.com:intense-hollows-6785.git\r\n   814a07b..d6f73d8  master -> master\r\n</br></br>\r\nheroku ps:scale web=1\r\n</br>\r\n", "tags"=>"Blerg"}, "commit"=>"Update Post", "id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "posts" SET "content" = 'Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I''m back. This time I will succeed or die trying. I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.
+</br></br>
+heroku login
+</br>
+bundle install
+</br>
+git push heroku master
+</br></br>
+Counting objects: 210, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.
+Total 139 (delta 40), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Removing .DS_Store files
+-----> Ruby/Rails app detected
+-----> Using Ruby version: ruby-1.9.3
+-----> Installing dependencies using Bundler version 1.2.1
+ Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment
+ Fetching gem metadata from https://rubygems.org/.........
+ Fetching gem metadata from https://rubygems.org/..
+ Using rake (0.9.2.2)
+ Using i18n (0.6.1)
+ Using multi_json (1.3.7)
+ Using activesupport (3.2.8)
+ Using builder (3.0.4)
+ Using activemodel (3.2.8)
+ Using erubis (2.7.0)
+ Using journey (1.0.4)
+ Using rack (1.4.1)
+ Using rack-cache (1.2)
+ Using rack-test (0.6.2)
+ Using hike (1.2.1)
+ Using tilt (1.3.3)
+ Using sprockets (2.1.3)
+ Using actionpack (3.2.8)
+ Using mime-types (1.19)
+ Using polyglot (0.3.3)
+ Using treetop (1.4.12)
+ Using mail (2.4.4)
+ Using actionmailer (3.2.8)
+ Using arel (3.0.2)
+ Using tzinfo (0.3.35)
+ Using activerecord (3.2.8)
+ Using activeresource (3.2.8)
+ Installing bcrypt-ruby (3.0.1) with native extensions
+ Using coffee-script-source (1.4.0)
+ Using execjs (1.4.0)
+ Using coffee-script (2.2.0)
+ Using rack-ssl (1.3.2)
+ Using json (1.7.5)
+ Using rdoc (3.12)
+ Using thor (0.16.0)
+ Using railties (3.2.8)
+ Using coffee-rails (3.2.2)
+ Using jquery-rails (2.1.3)
+ Using pg (0.14.1)
+ Using bundler (1.2.1)
+ Using rails (3.2.8)
+ Using sass (3.2.2)
+ Using sass-rails (3.2.5)
+ Using uglifier (1.3.0)
+ Your bundle is complete! It was installed into ./vendor/bundle
+ Cleaning up the bundler cache.
+ Removing launchy (2.1.2)
+ Removing addressable (2.3.2)
+ Removing excon (0.16.7)
+ Removing rest-client (1.6.7)
+ Removing netrc (0.7.7)
+ Removing thin (1.5.0)
+ Removing heroku-api (0.3.6)
+ Removing rubyzip (0.9.9)
+ Removing heroku (2.33.0)
+ Removing daemons (1.1.9)
+ Removing eventmachine (1.0.0)
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+ Running: rake assets:precompile
+ Asset precompilation completed (17.65s)
+-----> Rails plugin injection
+ Injecting rails_log_stdout
+ Injecting rails3_serve_static_assets
+-----> Discovering process types
+ Procfile declares types -> (none)
+ Default types for Ruby/Rails -> console, rake, web, worker
+-----> Compiled slug size: 20.8MB
+-----> Launching... done, v7
+ http://intense-hollows-6785.herokuapp.com deployed to Heroku
+
+To git@heroku.com:intense-hollows-6785.git
+ 814a07b..d6f73d8 master -> master
+</br></br>
+heroku ps:scale web=1
+</br>
+', "updated_at" = '2012-11-20 23:41:08.385218' WHERE "posts"."id" = 9
+  [1m[36m (82.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/9
+Completed 302 Found in 89ms (ActiveRecord: 83.1ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:41:08 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (3.7ms)
+  Rendered posts/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:41:47 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/9" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"Heroku: part deux", "content"=>"Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I'm back. This time I will succeed or die trying.  I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.\r\n</br></br>\r\nheroku login\r\n</br>\r\nbundle install\r\n</br>\r\ngit push heroku master\r\n</br></br>\r\nCounting objects: 210, done.\r\nDelta compression using up to 4 threads.\r\nCompressing objects: 100% (112/112), done.\r\nWriting objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.\r\nTotal 139 (delta 40), reused 0 (delta 0)\r\n\r\n-----> Heroku receiving push\r\n-----> Removing .DS_Store files\r\n-----> Ruby/Rails app detected\r\n-----> Using Ruby version: ruby-1.9.3\r\n-----> Installing dependencies using Bundler version 1.2.1\r\n       Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment\r\n       Fetching gem metadata from https://rubygems.org/.........\r\n       Fetching gem metadata from https://rubygems.org/..\r\n       Using rake (0.9.2.2)\r\n       Using i18n (0.6.1)\r\n       Using multi_json (1.3.7)\r\n       Using activesupport (3.2.8)\r\n       Using builder (3.0.4)\r\n       Using activemodel (3.2.8)\r\n       Using erubis (2.7.0)\r\n       Using journey (1.0.4)\r\n       Using rack (1.4.1)\r\n       Using rack-cache (1.2)\r\n       Using rack-test (0.6.2)\r\n       Using hike (1.2.1)\r\n       Using tilt (1.3.3)\r\n       Using sprockets (2.1.3)\r\n       Using actionpack (3.2.8)\r\n       Using mime-types (1.19)\r\n       Using polyglot (0.3.3)\r\n       Using treetop (1.4.12)\r\n       Using mail (2.4.4)\r\n       Using actionmailer (3.2.8)\r\n       Using arel (3.0.2)\r\n       Using tzinfo (0.3.35)\r\n       Using activerecord (3.2.8)\r\n       Using activeresource (3.2.8)\r\n       Installing bcrypt-ruby (3.0.1) with native extensions\r\n       Using coffee-script-source (1.4.0)\r\n       Using execjs (1.4.0)\r\n       Using coffee-script (2.2.0)\r\n       Using rack-ssl (1.3.2)\r\n       Using json (1.7.5)\r\n       Using rdoc (3.12)\r\n       Using thor (0.16.0)\r\n       Using railties (3.2.8)\r\n       Using coffee-rails (3.2.2)\r\n       Using jquery-rails (2.1.3)\r\n       Using pg (0.14.1)\r\n       Using bundler (1.2.1)\r\n       Using rails (3.2.8)\r\n       Using sass (3.2.2)\r\n       Using sass-rails (3.2.5)\r\n       Using uglifier (1.3.0)\r\n       Your bundle is complete! It was installed into ./vendor/bundle\r\n       Cleaning up the bundler cache.\r\n       Removing launchy (2.1.2)\r\n       Removing addressable (2.3.2)\r\n       Removing excon (0.16.7)\r\n       Removing rest-client (1.6.7)\r\n       Removing netrc (0.7.7)\r\n       Removing thin (1.5.0)\r\n       Removing heroku-api (0.3.6)\r\n       Removing rubyzip (0.9.9)\r\n       Removing heroku (2.33.0)\r\n       Removing daemons (1.1.9)\r\n       Removing eventmachine (1.0.0)\r\n-----> Writing config/database.yml to read from DATABASE_URL\r\n-----> Preparing app for Rails asset pipeline\r\n       Running: rake assets:precompile\r\n       Asset precompilation completed (17.65s)\r\n-----> Rails plugin injection\r\n       Injecting rails_log_stdout\r\n       Injecting rails3_serve_static_assets\r\n-----> Discovering process types\r\n       Procfile declares types      -> (none)\r\n       Default types for Ruby/Rails -> console, rake, web, worker\r\n-----> Compiled slug size: 20.8MB\r\n-----> Launching... done, v7\r\n       http://intense-hollows-6785.herokuapp.com deployed to Heroku\r\n\r\nTo git@heroku.com:intense-hollows-6785.git\r\n   814a07b..d6f73d8  master -> master\r\n</br></br>\r\nheroku ps:scale web=1\r\n</br>\r\n</br>\r\nScaling web processes... done, now running 1\r\n</br>\r\n</br>\r\nheroku ps\r\n</br>\r\n</br>\r\n=== web: `bundle exec rails server -p $PORT`\r\nweb.1: up 2012/11/20 17:31:35 (~ 10m ago)\r\n", "tags"=>"Blerg"}, "commit"=>"Update Post", "id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "posts" SET "content" = 'Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I''m back. This time I will succeed or die trying. I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.
+</br></br>
+heroku login
+</br>
+bundle install
+</br>
+git push heroku master
+</br></br>
+Counting objects: 210, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.
+Total 139 (delta 40), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Removing .DS_Store files
+-----> Ruby/Rails app detected
+-----> Using Ruby version: ruby-1.9.3
+-----> Installing dependencies using Bundler version 1.2.1
+ Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment
+ Fetching gem metadata from https://rubygems.org/.........
+ Fetching gem metadata from https://rubygems.org/..
+ Using rake (0.9.2.2)
+ Using i18n (0.6.1)
+ Using multi_json (1.3.7)
+ Using activesupport (3.2.8)
+ Using builder (3.0.4)
+ Using activemodel (3.2.8)
+ Using erubis (2.7.0)
+ Using journey (1.0.4)
+ Using rack (1.4.1)
+ Using rack-cache (1.2)
+ Using rack-test (0.6.2)
+ Using hike (1.2.1)
+ Using tilt (1.3.3)
+ Using sprockets (2.1.3)
+ Using actionpack (3.2.8)
+ Using mime-types (1.19)
+ Using polyglot (0.3.3)
+ Using treetop (1.4.12)
+ Using mail (2.4.4)
+ Using actionmailer (3.2.8)
+ Using arel (3.0.2)
+ Using tzinfo (0.3.35)
+ Using activerecord (3.2.8)
+ Using activeresource (3.2.8)
+ Installing bcrypt-ruby (3.0.1) with native extensions
+ Using coffee-script-source (1.4.0)
+ Using execjs (1.4.0)
+ Using coffee-script (2.2.0)
+ Using rack-ssl (1.3.2)
+ Using json (1.7.5)
+ Using rdoc (3.12)
+ Using thor (0.16.0)
+ Using railties (3.2.8)
+ Using coffee-rails (3.2.2)
+ Using jquery-rails (2.1.3)
+ Using pg (0.14.1)
+ Using bundler (1.2.1)
+ Using rails (3.2.8)
+ Using sass (3.2.2)
+ Using sass-rails (3.2.5)
+ Using uglifier (1.3.0)
+ Your bundle is complete! It was installed into ./vendor/bundle
+ Cleaning up the bundler cache.
+ Removing launchy (2.1.2)
+ Removing addressable (2.3.2)
+ Removing excon (0.16.7)
+ Removing rest-client (1.6.7)
+ Removing netrc (0.7.7)
+ Removing thin (1.5.0)
+ Removing heroku-api (0.3.6)
+ Removing rubyzip (0.9.9)
+ Removing heroku (2.33.0)
+ Removing daemons (1.1.9)
+ Removing eventmachine (1.0.0)
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+ Running: rake assets:precompile
+ Asset precompilation completed (17.65s)
+-----> Rails plugin injection
+ Injecting rails_log_stdout
+ Injecting rails3_serve_static_assets
+-----> Discovering process types
+ Procfile declares types -> (none)
+ Default types for Ruby/Rails -> console, rake, web, worker
+-----> Compiled slug size: 20.8MB
+-----> Launching... done, v7
+ http://intense-hollows-6785.herokuapp.com deployed to Heroku
+
+To git@heroku.com:intense-hollows-6785.git
+ 814a07b..d6f73d8 master -> master
+</br></br>
+heroku ps:scale web=1
+</br>
+</br>
+Scaling web processes... done, now running 1
+</br>
+</br>
+heroku ps
+</br>
+</br>
+=== web: `bundle exec rails server -p $PORT`
+web.1: up 2012/11/20 17:31:35 (~ 10m ago)
+', "updated_at" = '2012-11-20 23:42:41.731592' WHERE "posts"."id" = 9
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/9
+Completed 302 Found in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:42:41 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (4.0ms)
+  Rendered posts/edit.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:44:39 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/9" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"Heroku: part deux", "content"=>"Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I'm back. This time I will succeed or die trying.  I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.\r\n</br></br>\r\nheroku login\r\n</br>\r\nbundle install\r\n</br>\r\ngit push heroku master\r\n</br></br>\r\nCounting objects: 210, done.\r\nDelta compression using up to 4 threads.\r\nCompressing objects: 100% (112/112), done.\r\nWriting objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.\r\nTotal 139 (delta 40), reused 0 (delta 0)\r\n\r\n-----> Heroku receiving push\r\n-----> Removing .DS_Store files\r\n-----> Ruby/Rails app detected\r\n-----> Using Ruby version: ruby-1.9.3\r\n-----> Installing dependencies using Bundler version 1.2.1\r\n       Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment\r\n       Fetching gem metadata from https://rubygems.org/.........\r\n       Fetching gem metadata from https://rubygems.org/..\r\n       Using rake (0.9.2.2)\r\n       Using i18n (0.6.1)\r\n       Using multi_json (1.3.7)\r\n       Using activesupport (3.2.8)\r\n       Using builder (3.0.4)\r\n       Using activemodel (3.2.8)\r\n       Using erubis (2.7.0)\r\n       Using journey (1.0.4)\r\n       Using rack (1.4.1)\r\n       Using rack-cache (1.2)\r\n       Using rack-test (0.6.2)\r\n       Using hike (1.2.1)\r\n       Using tilt (1.3.3)\r\n       Using sprockets (2.1.3)\r\n       Using actionpack (3.2.8)\r\n       Using mime-types (1.19)\r\n       Using polyglot (0.3.3)\r\n       Using treetop (1.4.12)\r\n       Using mail (2.4.4)\r\n       Using actionmailer (3.2.8)\r\n       Using arel (3.0.2)\r\n       Using tzinfo (0.3.35)\r\n       Using activerecord (3.2.8)\r\n       Using activeresource (3.2.8)\r\n       Installing bcrypt-ruby (3.0.1) with native extensions\r\n       Using coffee-script-source (1.4.0)\r\n       Using execjs (1.4.0)\r\n       Using coffee-script (2.2.0)\r\n       Using rack-ssl (1.3.2)\r\n       Using json (1.7.5)\r\n       Using rdoc (3.12)\r\n       Using thor (0.16.0)\r\n       Using railties (3.2.8)\r\n       Using coffee-rails (3.2.2)\r\n       Using jquery-rails (2.1.3)\r\n       Using pg (0.14.1)\r\n       Using bundler (1.2.1)\r\n       Using rails (3.2.8)\r\n       Using sass (3.2.2)\r\n       Using sass-rails (3.2.5)\r\n       Using uglifier (1.3.0)\r\n       Your bundle is complete! It was installed into ./vendor/bundle\r\n       Cleaning up the bundler cache.\r\n       Removing launchy (2.1.2)\r\n       Removing addressable (2.3.2)\r\n       Removing excon (0.16.7)\r\n       Removing rest-client (1.6.7)\r\n       Removing netrc (0.7.7)\r\n       Removing thin (1.5.0)\r\n       Removing heroku-api (0.3.6)\r\n       Removing rubyzip (0.9.9)\r\n       Removing heroku (2.33.0)\r\n       Removing daemons (1.1.9)\r\n       Removing eventmachine (1.0.0)\r\n-----> Writing config/database.yml to read from DATABASE_URL\r\n-----> Preparing app for Rails asset pipeline\r\n       Running: rake assets:precompile\r\n       Asset precompilation completed (17.65s)\r\n-----> Rails plugin injection\r\n       Injecting rails_log_stdout\r\n       Injecting rails3_serve_static_assets\r\n-----> Discovering process types\r\n       Procfile declares types      -> (none)\r\n       Default types for Ruby/Rails -> console, rake, web, worker\r\n-----> Compiled slug size: 20.8MB\r\n-----> Launching... done, v7\r\n       http://intense-hollows-6785.herokuapp.com deployed to Heroku\r\n\r\nTo git@heroku.com:intense-hollows-6785.git\r\n   814a07b..d6f73d8  master -> master\r\n</br></br>\r\nheroku ps:scale web=1\r\n</br>\r\n</br>\r\nScaling web processes... done, now running 1\r\n</br>\r\n</br>\r\nheroku ps\r\n</br>\r\n</br>\r\n=== web: `bundle exec rails server -p $PORT`\r\nweb.1: up 2012/11/20 17:31:35 (~ 10m ago)\r\n</br>\r\n</br>\r\nheroku open\r\n</br>\r\n</br>\r\nOpening intense-hollows-6785... done\r\n</br>\r\n</br>", "tags"=>"Blerg"}, "commit"=>"Update Post", "id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  UPDATE "posts" SET "content" = 'Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I''m back. This time I will succeed or die trying. I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.
+</br></br>
+heroku login
+</br>
+bundle install
+</br>
+git push heroku master
+</br></br>
+Counting objects: 210, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.
+Total 139 (delta 40), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Removing .DS_Store files
+-----> Ruby/Rails app detected
+-----> Using Ruby version: ruby-1.9.3
+-----> Installing dependencies using Bundler version 1.2.1
+ Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment
+ Fetching gem metadata from https://rubygems.org/.........
+ Fetching gem metadata from https://rubygems.org/..
+ Using rake (0.9.2.2)
+ Using i18n (0.6.1)
+ Using multi_json (1.3.7)
+ Using activesupport (3.2.8)
+ Using builder (3.0.4)
+ Using activemodel (3.2.8)
+ Using erubis (2.7.0)
+ Using journey (1.0.4)
+ Using rack (1.4.1)
+ Using rack-cache (1.2)
+ Using rack-test (0.6.2)
+ Using hike (1.2.1)
+ Using tilt (1.3.3)
+ Using sprockets (2.1.3)
+ Using actionpack (3.2.8)
+ Using mime-types (1.19)
+ Using polyglot (0.3.3)
+ Using treetop (1.4.12)
+ Using mail (2.4.4)
+ Using actionmailer (3.2.8)
+ Using arel (3.0.2)
+ Using tzinfo (0.3.35)
+ Using activerecord (3.2.8)
+ Using activeresource (3.2.8)
+ Installing bcrypt-ruby (3.0.1) with native extensions
+ Using coffee-script-source (1.4.0)
+ Using execjs (1.4.0)
+ Using coffee-script (2.2.0)
+ Using rack-ssl (1.3.2)
+ Using json (1.7.5)
+ Using rdoc (3.12)
+ Using thor (0.16.0)
+ Using railties (3.2.8)
+ Using coffee-rails (3.2.2)
+ Using jquery-rails (2.1.3)
+ Using pg (0.14.1)
+ Using bundler (1.2.1)
+ Using rails (3.2.8)
+ Using sass (3.2.2)
+ Using sass-rails (3.2.5)
+ Using uglifier (1.3.0)
+ Your bundle is complete! It was installed into ./vendor/bundle
+ Cleaning up the bundler cache.
+ Removing launchy (2.1.2)
+ Removing addressable (2.3.2)
+ Removing excon (0.16.7)
+ Removing rest-client (1.6.7)
+ Removing netrc (0.7.7)
+ Removing thin (1.5.0)
+ Removing heroku-api (0.3.6)
+ Removing rubyzip (0.9.9)
+ Removing heroku (2.33.0)
+ Removing daemons (1.1.9)
+ Removing eventmachine (1.0.0)
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+ Running: rake assets:precompile
+ Asset precompilation completed (17.65s)
+-----> Rails plugin injection
+ Injecting rails_log_stdout
+ Injecting rails3_serve_static_assets
+-----> Discovering process types
+ Procfile declares types -> (none)
+ Default types for Ruby/Rails -> console, rake, web, worker
+-----> Compiled slug size: 20.8MB
+-----> Launching... done, v7
+ http://intense-hollows-6785.herokuapp.com deployed to Heroku
+
+To git@heroku.com:intense-hollows-6785.git
+ 814a07b..d6f73d8 master -> master
+</br></br>
+heroku ps:scale web=1
+</br>
+</br>
+Scaling web processes... done, now running 1
+</br>
+</br>
+heroku ps
+</br>
+</br>
+=== web: `bundle exec rails server -p $PORT`
+web.1: up 2012/11/20 17:31:35 (~ 10m ago)
+</br>
+</br>
+heroku open
+</br>
+</br>
+Opening intense-hollows-6785... done
+</br>
+</br>', "updated_at" = '2012-11-20 23:45:11.725135' WHERE "posts"."id" = 9
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/9
+Completed 302 Found in 8ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:45:11 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (26.0ms)
+  Rendered posts/edit.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:45:33 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/9" for 127.0.0.1 at 2012-11-20 17:45:52 -0600
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"Heroku: part deux", "content"=>"Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I'm back. This time I will succeed or die trying.  I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.\r\n</br></br>\r\nheroku login\r\n</br>\r\nbundle install\r\n</br>\r\ngit push heroku master\r\n</br></br>\r\nCounting objects: 210, done.\r\nDelta compression using up to 4 threads.\r\nCompressing objects: 100% (112/112), done.\r\nWriting objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.\r\nTotal 139 (delta 40), reused 0 (delta 0)\r\n\r\n-----> Heroku receiving push\r\n-----> Removing .DS_Store files\r\n-----> Ruby/Rails app detected\r\n-----> Using Ruby version: ruby-1.9.3\r\n-----> Installing dependencies using Bundler version 1.2.1\r\n       Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment\r\n       Fetching gem metadata from https://rubygems.org/.........\r\n       Fetching gem metadata from https://rubygems.org/..\r\n       Using rake (0.9.2.2)\r\n       Using i18n (0.6.1)\r\n       Using multi_json (1.3.7)\r\n       Using activesupport (3.2.8)\r\n       Using builder (3.0.4)\r\n       Using activemodel (3.2.8)\r\n       Using erubis (2.7.0)\r\n       Using journey (1.0.4)\r\n       Using rack (1.4.1)\r\n       Using rack-cache (1.2)\r\n       Using rack-test (0.6.2)\r\n       Using hike (1.2.1)\r\n       Using tilt (1.3.3)\r\n       Using sprockets (2.1.3)\r\n       Using actionpack (3.2.8)\r\n       Using mime-types (1.19)\r\n       Using polyglot (0.3.3)\r\n       Using treetop (1.4.12)\r\n       Using mail (2.4.4)\r\n       Using actionmailer (3.2.8)\r\n       Using arel (3.0.2)\r\n       Using tzinfo (0.3.35)\r\n       Using activerecord (3.2.8)\r\n       Using activeresource (3.2.8)\r\n       Installing bcrypt-ruby (3.0.1) with native extensions\r\n       Using coffee-script-source (1.4.0)\r\n       Using execjs (1.4.0)\r\n       Using coffee-script (2.2.0)\r\n       Using rack-ssl (1.3.2)\r\n       Using json (1.7.5)\r\n       Using rdoc (3.12)\r\n       Using thor (0.16.0)\r\n       Using railties (3.2.8)\r\n       Using coffee-rails (3.2.2)\r\n       Using jquery-rails (2.1.3)\r\n       Using pg (0.14.1)\r\n       Using bundler (1.2.1)\r\n       Using rails (3.2.8)\r\n       Using sass (3.2.2)\r\n       Using sass-rails (3.2.5)\r\n       Using uglifier (1.3.0)\r\n       Your bundle is complete! It was installed into ./vendor/bundle\r\n       Cleaning up the bundler cache.\r\n       Removing launchy (2.1.2)\r\n       Removing addressable (2.3.2)\r\n       Removing excon (0.16.7)\r\n       Removing rest-client (1.6.7)\r\n       Removing netrc (0.7.7)\r\n       Removing thin (1.5.0)\r\n       Removing heroku-api (0.3.6)\r\n       Removing rubyzip (0.9.9)\r\n       Removing heroku (2.33.0)\r\n       Removing daemons (1.1.9)\r\n       Removing eventmachine (1.0.0)\r\n-----> Writing config/database.yml to read from DATABASE_URL\r\n-----> Preparing app for Rails asset pipeline\r\n       Running: rake assets:precompile\r\n       Asset precompilation completed (17.65s)\r\n-----> Rails plugin injection\r\n       Injecting rails_log_stdout\r\n       Injecting rails3_serve_static_assets\r\n-----> Discovering process types\r\n       Procfile declares types      -> (none)\r\n       Default types for Ruby/Rails -> console, rake, web, worker\r\n-----> Compiled slug size: 20.8MB\r\n-----> Launching... done, v7\r\n       http://intense-hollows-6785.herokuapp.com deployed to Heroku\r\n\r\nTo git@heroku.com:intense-hollows-6785.git\r\n   814a07b..d6f73d8  master -> master\r\n</br></br>\r\nheroku ps:scale web=1\r\n</br>\r\n</br>\r\nScaling web processes... done, now running 1\r\n</br>\r\n</br>\r\nheroku ps\r\n</br>\r\n</br>\r\n=== web: `bundle exec rails server -p $PORT`\r\nweb.1: up 2012/11/20 17:31:35 (~ 10m ago)\r\n</br>\r\n</br>\r\nheroku open\r\n</br>\r\n</br>\r\nOpening intense-hollows-6785... done\r\n</br>\r\n</br>\r\nBrowser shows following error message, \"We're sorry, but something went wrong.\"", "tags"=>"Blerg"}, "commit"=>"Update Post", "id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  UPDATE "posts" SET "content" = 'Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I''m back. This time I will succeed or die trying. I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.
+</br></br>
+heroku login
+</br>
+bundle install
+</br>
+git push heroku master
+</br></br>
+Counting objects: 210, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.
+Total 139 (delta 40), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Removing .DS_Store files
+-----> Ruby/Rails app detected
+-----> Using Ruby version: ruby-1.9.3
+-----> Installing dependencies using Bundler version 1.2.1
+ Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment
+ Fetching gem metadata from https://rubygems.org/.........
+ Fetching gem metadata from https://rubygems.org/..
+ Using rake (0.9.2.2)
+ Using i18n (0.6.1)
+ Using multi_json (1.3.7)
+ Using activesupport (3.2.8)
+ Using builder (3.0.4)
+ Using activemodel (3.2.8)
+ Using erubis (2.7.0)
+ Using journey (1.0.4)
+ Using rack (1.4.1)
+ Using rack-cache (1.2)
+ Using rack-test (0.6.2)
+ Using hike (1.2.1)
+ Using tilt (1.3.3)
+ Using sprockets (2.1.3)
+ Using actionpack (3.2.8)
+ Using mime-types (1.19)
+ Using polyglot (0.3.3)
+ Using treetop (1.4.12)
+ Using mail (2.4.4)
+ Using actionmailer (3.2.8)
+ Using arel (3.0.2)
+ Using tzinfo (0.3.35)
+ Using activerecord (3.2.8)
+ Using activeresource (3.2.8)
+ Installing bcrypt-ruby (3.0.1) with native extensions
+ Using coffee-script-source (1.4.0)
+ Using execjs (1.4.0)
+ Using coffee-script (2.2.0)
+ Using rack-ssl (1.3.2)
+ Using json (1.7.5)
+ Using rdoc (3.12)
+ Using thor (0.16.0)
+ Using railties (3.2.8)
+ Using coffee-rails (3.2.2)
+ Using jquery-rails (2.1.3)
+ Using pg (0.14.1)
+ Using bundler (1.2.1)
+ Using rails (3.2.8)
+ Using sass (3.2.2)
+ Using sass-rails (3.2.5)
+ Using uglifier (1.3.0)
+ Your bundle is complete! It was installed into ./vendor/bundle
+ Cleaning up the bundler cache.
+ Removing launchy (2.1.2)
+ Removing addressable (2.3.2)
+ Removing excon (0.16.7)
+ Removing rest-client (1.6.7)
+ Removing netrc (0.7.7)
+ Removing thin (1.5.0)
+ Removing heroku-api (0.3.6)
+ Removing rubyzip (0.9.9)
+ Removing heroku (2.33.0)
+ Removing daemons (1.1.9)
+ Removing eventmachine (1.0.0)
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+ Running: rake assets:precompile
+ Asset precompilation completed (17.65s)
+-----> Rails plugin injection
+ Injecting rails_log_stdout
+ Injecting rails3_serve_static_assets
+-----> Discovering process types
+ Procfile declares types -> (none)
+ Default types for Ruby/Rails -> console, rake, web, worker
+-----> Compiled slug size: 20.8MB
+-----> Launching... done, v7
+ http://intense-hollows-6785.herokuapp.com deployed to Heroku
+
+To git@heroku.com:intense-hollows-6785.git
+ 814a07b..d6f73d8 master -> master
+</br></br>
+heroku ps:scale web=1
+</br>
+</br>
+Scaling web processes... done, now running 1
+</br>
+</br>
+heroku ps
+</br>
+</br>
+=== web: `bundle exec rails server -p $PORT`
+web.1: up 2012/11/20 17:31:35 (~ 10m ago)
+</br>
+</br>
+heroku open
+</br>
+</br>
+Opening intense-hollows-6785... done
+</br>
+</br>
+Browser shows following error message, "We''re sorry, but something went wrong."', "updated_at" = '2012-11-20 23:45:52.952717' WHERE "posts"."id" = 9
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/9
+Completed 302 Found in 8ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-11-20 17:45:52 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
+Served asset /github.png - 304 Not Modified (0ms)
