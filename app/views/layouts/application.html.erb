@@ -12,13 +12,13 @@
 </head>
 <body>
 	<nav>      
-	           <%= link_to ' Home  |  ', root_url %>	
-	 	       <%= link_to ' About  |  ', about_url %>
+	           <%= link_to ' Home    ', root_url %>|	
+	 	       <%= link_to ' About    ', about_url %>|
 	 	       <%= link_to ' Projects ', projects_url %>
 	
 				<% if session["user_id"] %>
-				    <%= link_to "| New Post", new_post_url %>
-					<%= link_to "| Sign Out", "/logout" %>
+				    |<%= link_to " New Post", new_post_url %>
+					|<%= link_to " Sign Out", "/logout" %>
 		        <% end %>
 
 		<div class="blog_title">

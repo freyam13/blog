@@ -23,9 +23,11 @@ nav a{
   &:visited {
   color: #ffffff;
 }
-  &:hover {
-    font-color: #000;
 }
+
+nav a:hover{
+	color: #00aced;
+	text-decoration: none;
 }
 
 h2 a {

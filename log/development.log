@@ -49313,3 +49313,3296 @@ Served asset /twitter.png - 304 Not Modified (0ms)
 
 Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:45:53 -0600
 Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:56:10 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Processing by StaticController#about as HTML
+  Rendered static/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:56:12 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Processing by StaticController#projects as HTML
+  Rendered static/projects.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:56:13 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 17:56:15 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-11-20 18:30:12 -0600
+Processing by StaticController#about as HTML
+  Rendered static/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 18:30:13 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered posts/_form.html.erb (3.3ms)
+  Rendered posts/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 18:30:32 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-20 18:30:38 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 140ms (Views: 97.1ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /application.css - 200 OK (17ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /posts.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 07:53:25 -0600
+Served asset /application.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-21 07:53:26 -0600
+Served asset /background.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-21 07:53:26 -0600
+Served asset /twitter.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-21 07:53:26 -0600
+Served asset /github.png - 304 Not Modified (2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-11-21 08:21:34 -0600
+Processing by StaticController#about as HTML
+  Rendered static/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:34 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-21 08:21:35 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-21 08:21:41 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-11-21 08:21:57 -0600
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered posts/_form.html.erb (12.2ms)
+  Rendered posts/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 102ms (Views: 29.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:57 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-21 08:21:57 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:57 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:57 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 08:21:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-21 08:21:58 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-21 08:21:58 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-21 08:22:05 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (5.9ms)
+  Rendered posts/edit.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-21 09:35:15 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started PUT "/posts/9" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"Heroku: part deux", "content"=>"Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I'm back. This time I will succeed or die trying.  I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.\r\n</br></br>\r\nheroku login\r\n</br>\r\nbundle install\r\n</br>\r\ngit push heroku master\r\n</br></br>\r\nCounting objects: 210, done.\r\nDelta compression using up to 4 threads.\r\nCompressing objects: 100% (112/112), done.\r\nWriting objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.\r\nTotal 139 (delta 40), reused 0 (delta 0)\r\n\r\n-----> Heroku receiving push\r\n-----> Removing .DS_Store files\r\n-----> Ruby/Rails app detected\r\n-----> Using Ruby version: ruby-1.9.3\r\n-----> Installing dependencies using Bundler version 1.2.1\r\n       Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment\r\n       Fetching gem metadata from https://rubygems.org/.........\r\n       Fetching gem metadata from https://rubygems.org/..\r\n       Using rake (0.9.2.2)\r\n       Using i18n (0.6.1)\r\n       Using multi_json (1.3.7)\r\n       Using activesupport (3.2.8)\r\n       Using builder (3.0.4)\r\n       Using activemodel (3.2.8)\r\n       Using erubis (2.7.0)\r\n       Using journey (1.0.4)\r\n       Using rack (1.4.1)\r\n       Using rack-cache (1.2)\r\n       Using rack-test (0.6.2)\r\n       Using hike (1.2.1)\r\n       Using tilt (1.3.3)\r\n       Using sprockets (2.1.3)\r\n       Using actionpack (3.2.8)\r\n       Using mime-types (1.19)\r\n       Using polyglot (0.3.3)\r\n       Using treetop (1.4.12)\r\n       Using mail (2.4.4)\r\n       Using actionmailer (3.2.8)\r\n       Using arel (3.0.2)\r\n       Using tzinfo (0.3.35)\r\n       Using activerecord (3.2.8)\r\n       Using activeresource (3.2.8)\r\n       Installing bcrypt-ruby (3.0.1) with native extensions\r\n       Using coffee-script-source (1.4.0)\r\n       Using execjs (1.4.0)\r\n       Using coffee-script (2.2.0)\r\n       Using rack-ssl (1.3.2)\r\n       Using json (1.7.5)\r\n       Using rdoc (3.12)\r\n       Using thor (0.16.0)\r\n       Using railties (3.2.8)\r\n       Using coffee-rails (3.2.2)\r\n       Using jquery-rails (2.1.3)\r\n       Using pg (0.14.1)\r\n       Using bundler (1.2.1)\r\n       Using rails (3.2.8)\r\n       Using sass (3.2.2)\r\n       Using sass-rails (3.2.5)\r\n       Using uglifier (1.3.0)\r\n       Your bundle is complete! It was installed into ./vendor/bundle\r\n       Cleaning up the bundler cache.\r\n       Removing launchy (2.1.2)\r\n       Removing addressable (2.3.2)\r\n       Removing excon (0.16.7)\r\n       Removing rest-client (1.6.7)\r\n       Removing netrc (0.7.7)\r\n       Removing thin (1.5.0)\r\n       Removing heroku-api (0.3.6)\r\n       Removing rubyzip (0.9.9)\r\n       Removing heroku (2.33.0)\r\n       Removing daemons (1.1.9)\r\n       Removing eventmachine (1.0.0)\r\n-----> Writing config/database.yml to read from DATABASE_URL\r\n-----> Preparing app for Rails asset pipeline\r\n       Running: rake assets:precompile\r\n       Asset precompilation completed (17.65s)\r\n-----> Rails plugin injection\r\n       Injecting rails_log_stdout\r\n       Injecting rails3_serve_static_assets\r\n-----> Discovering process types\r\n       Procfile declares types      -> (none)\r\n       Default types for Ruby/Rails -> console, rake, web, worker\r\n-----> Compiled slug size: 20.8MB\r\n-----> Launching... done, v7\r\n       http://intense-hollows-6785.herokuapp.com deployed to Heroku\r\n\r\nTo git@heroku.com:intense-hollows-6785.git\r\n   814a07b..d6f73d8  master -> master\r\n</br></br>\r\nheroku ps:scale web=1\r\n</br>\r\n</br>\r\nScaling web processes... done, now running 1\r\n</br>\r\n</br>\r\nheroku ps\r\n</br>\r\n</br>\r\n=== web: `bundle exec rails server -p $PORT`\r\nweb.1: up 2012/11/20 17:31:35 (~ 10m ago)\r\n</br>\r\n</br>\r\nheroku open\r\n</br>\r\n</br>\r\nOpening intense-hollows-6785... done\r\n</br>\r\n</br>\r\nBrowser shows following error message, \"We're sorry, but something went wrong.\"\r\n</br>\r\n</br>\r\nheroku rake db:migrate", "tags"=>"Blerg"}, "commit"=>"Update Post", "id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  UPDATE "posts" SET "content" = 'Here we go again. After giving up...then trying again...then giving up again...and then trying to ship my app with anything but Heroku...I''m back. This time I will succeed or die trying. I will chronicle my steps here for my own purposes. Who knows, maybe it will turn out to be a helpful post. Wish me luck.
+</br></br>
+heroku login
+</br>
+bundle install
+</br>
+git push heroku master
+</br></br>
+Counting objects: 210, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (139/139), 1.43 MiB | 107 KiB/s, done.
+Total 139 (delta 40), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Removing .DS_Store files
+-----> Ruby/Rails app detected
+-----> Using Ruby version: ruby-1.9.3
+-----> Installing dependencies using Bundler version 1.2.1
+ Running: bundle install --without development:test --path vendor/bundle --binstubs bin/ --deployment
+ Fetching gem metadata from https://rubygems.org/.........
+ Fetching gem metadata from https://rubygems.org/..
+ Using rake (0.9.2.2)
+ Using i18n (0.6.1)
+ Using multi_json (1.3.7)
+ Using activesupport (3.2.8)
+ Using builder (3.0.4)
+ Using activemodel (3.2.8)
+ Using erubis (2.7.0)
+ Using journey (1.0.4)
+ Using rack (1.4.1)
+ Using rack-cache (1.2)
+ Using rack-test (0.6.2)
+ Using hike (1.2.1)
+ Using tilt (1.3.3)
+ Using sprockets (2.1.3)
+ Using actionpack (3.2.8)
+ Using mime-types (1.19)
+ Using polyglot (0.3.3)
+ Using treetop (1.4.12)
+ Using mail (2.4.4)
+ Using actionmailer (3.2.8)
+ Using arel (3.0.2)
+ Using tzinfo (0.3.35)
+ Using activerecord (3.2.8)
+ Using activeresource (3.2.8)
+ Installing bcrypt-ruby (3.0.1) with native extensions
+ Using coffee-script-source (1.4.0)
+ Using execjs (1.4.0)
+ Using coffee-script (2.2.0)
+ Using rack-ssl (1.3.2)
+ Using json (1.7.5)
+ Using rdoc (3.12)
+ Using thor (0.16.0)
+ Using railties (3.2.8)
+ Using coffee-rails (3.2.2)
+ Using jquery-rails (2.1.3)
+ Using pg (0.14.1)
+ Using bundler (1.2.1)
+ Using rails (3.2.8)
+ Using sass (3.2.2)
+ Using sass-rails (3.2.5)
+ Using uglifier (1.3.0)
+ Your bundle is complete! It was installed into ./vendor/bundle
+ Cleaning up the bundler cache.
+ Removing launchy (2.1.2)
+ Removing addressable (2.3.2)
+ Removing excon (0.16.7)
+ Removing rest-client (1.6.7)
+ Removing netrc (0.7.7)
+ Removing thin (1.5.0)
+ Removing heroku-api (0.3.6)
+ Removing rubyzip (0.9.9)
+ Removing heroku (2.33.0)
+ Removing daemons (1.1.9)
+ Removing eventmachine (1.0.0)
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+ Running: rake assets:precompile
+ Asset precompilation completed (17.65s)
+-----> Rails plugin injection
+ Injecting rails_log_stdout
+ Injecting rails3_serve_static_assets
+-----> Discovering process types
+ Procfile declares types -> (none)
+ Default types for Ruby/Rails -> console, rake, web, worker
+-----> Compiled slug size: 20.8MB
+-----> Launching... done, v7
+ http://intense-hollows-6785.herokuapp.com deployed to Heroku
+
+To git@heroku.com:intense-hollows-6785.git
+ 814a07b..d6f73d8 master -> master
+</br></br>
+heroku ps:scale web=1
+</br>
+</br>
+Scaling web processes... done, now running 1
+</br>
+</br>
+heroku ps
+</br>
+</br>
+=== web: `bundle exec rails server -p $PORT`
+web.1: up 2012/11/20 17:31:35 (~ 10m ago)
+</br>
+</br>
+heroku open
+</br>
+</br>
+Opening intense-hollows-6785... done
+</br>
+</br>
+Browser shows following error message, "We''re sorry, but something went wrong."
+</br>
+</br>
+heroku rake db:migrate', "updated_at" = '2012-11-21 15:35:47.653830' WHERE "posts"."id" = 9
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/9
+Completed 302 Found in 45ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-21 09:35:47 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-21 09:47:48 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-21 09:47:49 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-21 09:47:49 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-21 09:47:49 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2012-11-22 19:16:40 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (8.7ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 82ms (Views: 56.4ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-22 19:16:41 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:16:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-22 19:16:51 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:16:51 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:16:51 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:17:49 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Processing by StaticController#about as HTML
+  Rendered static/about.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:18:24 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-11-22 19:18:26 -0600
+Processing by StaticController#projects as HTML
+  Rendered static/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:18:27 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:18:30 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:18:36 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started POST "/sessions/create" for 127.0.0.1 at 2012-11-22 19:18:54 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "email"=>"freyam13@hotmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'freyam13@hotmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/posts/new
+Completed 302 Found in 345ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered posts/_form.html.erb (7.9ms)
+  Rendered posts/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:18:55 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"hjgjghgjh", "content"=>"vgjhjhh", "tags"=>""}, "commit"=>"Create Post"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered posts/_form.html.erb (7.2ms)
+  Rendered posts/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 30ms (Views: 22.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:19:03 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "post"=>{"title"=>"hjgjghgjh", "content"=>"vgjhjhh", "tags"=>"hghjghjgjh"}, "commit"=>"Create Post"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.2ms)[0m  INSERT INTO "posts" ("content", "created_at", "tags", "title", "updated_at") VALUES (?, ?, ?, ?, ?)  [["content", "vgjhjhh"], ["created_at", Fri, 23 Nov 2012 01:19:13 UTC +00:00], ["tags", "hghjghjgjh"], ["title", "hjgjghgjh"], ["updated_at", Fri, 23 Nov 2012 01:19:13 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/10
+Completed 302 Found in 11ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/posts/10" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered posts/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:19:13 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:19:14 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/10/edit" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered posts/_form.html.erb (3.9ms)
+  Rendered posts/edit.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:19:17 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:19:19 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Processing by StaticController#about as HTML
+  Rendered static/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:19:53 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Processing by StaticController#projects as HTML
+  Rendered static/projects.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:19:54 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (40.6ms)
+Completed 200 OK in 57ms (Views: 54.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:19:55 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/posts/10" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HcToiewM2Q/ktmVPSit3YG5qV954WELCQSrfV4of0h0=", "id"=>"10"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 10]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 11ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-22 19:20:18 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (8.6ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 95ms (Views: 65.8ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-11-23 18:18:01 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-11-23 18:18:02 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20121030043858)
+Migrating to CreateUsers (20121120202417)
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("posts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-12-04 14:11:58 -0600
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (19.8ms)
+Compiled scaffolds.css  (56ms)  (pid 87826)
+Compiled application.css  (2ms)  (pid 87826)
+Completed 200 OK in 297ms (Views: 212.9ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /application.css - 200 OK (23ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /scaffolds.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /jquery.js - 200 OK (8ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /users.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /posts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /twitter.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /github.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-12-04 14:11:59 -0600
+Served asset /background.png - 304 Not Modified (3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-12-04 14:12:41 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:12:46 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:15:44 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.1ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (52.5ms)
+Compiled scaffolds.css  (154ms)  (pid 87826)
+Compiled application.css  (10ms)  (pid 87826)
+Completed 200 OK in 360ms (Views: 353.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /application.css - 304 Not Modified (109ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /scaffolds.css - 200 OK (35ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:15:45 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-12-04 14:15:46 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:15:46 -0600
+Served asset /twitter.png - 304 Not Modified (11ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:15:46 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:17:39 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (49.3ms)
+Compiled scaffolds.css  (129ms)  (pid 87826)
+Compiled application.css  (7ms)  (pid 87826)
+Completed 200 OK in 313ms (Views: 304.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:17:39 -0600
+Served asset /application.css - 304 Not Modified (213ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /scaffolds.css - 200 OK (12ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-12-04 14:17:40 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (9.1ms)
+Compiled scaffolds.css  (33ms)  (pid 87826)
+Compiled application.css  (1ms)  (pid 87826)
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /scaffolds.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.png" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:21:39 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (9.5ms)
+Compiled scaffolds.css  (34ms)  (pid 87826)
+Compiled application.css  (2ms)  (pid 87826)
+Completed 200 OK in 80ms (Views: 77.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /application.css - 304 Not Modified (66ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:22:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:22:52 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:22:52 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (10.9ms)
+Compiled scaffolds.css  (33ms)  (pid 87826)
+Compiled application.css  (2ms)  (pid 87826)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:24:08 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (11.4ms)
+Compiled scaffolds.css  (37ms)  (pid 87826)
+Compiled application.css  (1ms)  (pid 87826)
+Completed 200 OK in 86ms (Views: 84.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:24:29 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:24:38 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (9.6ms)
+Compiled scaffolds.css  (32ms)  (pid 87826)
+Compiled application.css  (2ms)  (pid 87826)
+Completed 200 OK in 78ms (Views: 76.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:25:51 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:26:41 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 77ms (Views: 74.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:26:49 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:28:34 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:28:53 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Processing by StaticController#about as HTML
+  Rendered static/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:28:54 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Processing by StaticController#projects as HTML
+  Rendered static/projects.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:28:55 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered posts/_form.html.erb (14.8ms)
+  Rendered posts/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 78ms (Views: 33.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:28:56 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:28:59 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:30:05 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:30:05 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9/edit" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/_form.html.erb (4.7ms)
+  Rendered posts/edit.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:30:14 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:31:10 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:31:14 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /posts.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:31:15 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:31:18 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:31:21 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:31:22 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/9" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "9"]]
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /github.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:31:25 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (51.1ms)
+Completed 200 OK in 63ms (Views: 61.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2012-12-04 14:31:29 -0600
+Served asset /github.png - 304 Not Modified (0ms)

@@ -6,6 +6,8 @@ gem 'rails', '3.2.8'
 
 gem 'heroku'
 
+gem "taps", "~> 0.3.24"
+
 # gem 'thin'
 
 # Bundle edge Rails instead:
