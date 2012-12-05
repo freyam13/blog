@@ -43,6 +43,7 @@ GEM
     excon (0.16.7)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    google-analytics-rails (0.0.3)
     heroku (2.33.0)
       heroku-api (~> 0.3.5)
       launchy (>= 0.3.2)
@@ -131,6 +132,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt-ruby (~> 3.0.0)
   coffee-rails (~> 3.2.1)
+  google-analytics-rails
   heroku
   jquery-rails
   pg

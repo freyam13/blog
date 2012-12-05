@@ -8,6 +8,8 @@ gem 'heroku'
 
 gem "taps", "~> 0.3.24"
 
+gem 'google-analytics-rails'
+
 # gem 'thin'
 
 # Bundle edge Rails instead:
