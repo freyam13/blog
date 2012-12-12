@@ -1,5 +1,5 @@
 <div class="blog_post">
-<% @posts.reverse.each do |post| %>
+<% @posts.sort.reverse.each do |post| %>
     <h2><%= link_to post.title, post_url(post.id) %></h2>
 
     <h5><%= post.created_at.strftime("%B %d, %Y")%></h5>
