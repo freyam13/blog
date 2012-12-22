@@ -12,3 +12,52 @@
  *= require_tree .
  */
 
+.container {
+	max-width: 1190px;
+	margin: 0 auto;
+}
+
+.nav_bar {
+	font-family: 'Permanent Marker', cursive;	
+	position: fixed;
+	top: 0px;
+	background-color: black;
+	box-shadow: 5px 5px 5px #000000;	
+	padding: 15px;
+	margin: 0 auto;
+	width: 100%;
+	font-weight: bold;
+	color: #fff;
+	font-size: 20px;
+	line-height: 100%;
+	padding-top: 25px; 
+	box-sizing: border-box;
+}
+
+.section {
+	background-color: white;
+	box-shadow: 5px 5px 5px #000000;
+	float: left;
+	margin: 75px 1.35944562% 50px 0;
+	padding: 25px;
+	width: 62.7661506%;
+}
+
+.aside {
+	background-color: white;
+	box-shadow: 5px 5px 5px #000000;
+	float: right;
+	margin: 75px 0 25px 1.35944562%;
+	padding: 25px;
+	width: 20.920502%;
+}
+
+.projects {
+  height: 900px;
+  margin: 75px 25px 50px 100px;
+  padding: 25px;
+  background-color: white;
+  width: 750px;
+  float: left;
+  box-shadow: 5px 5px 5px #000000;
+}

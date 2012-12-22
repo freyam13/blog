@@ -2,15 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-header{
-  margin-left: 100px;
-  width: 1225px;
-  box-shadow: 5px 5px 5px #000000;
-  background-image: url('https://gimmebar-assets.s3.amazonaws.com/50929d2972a3c.jpg');
-  background-size: 100%;
-  height: 250px;
-}
-
 body {
   background-image: url('/assets/background.png');
   background-size: 100%;
@@ -18,7 +9,7 @@ body {
   font-family: 'Gentium Book Basic', serif;
 }
 
-nav {
+/*nav {
   font-family: 'Permanent Marker', cursive;	
   position: fixed;
   top: 0px;
@@ -32,7 +23,7 @@ nav {
   font-size: 20px;
   line-height: 100%;
   padding-top: 25px; 
-}
+}*/
 
 .blog_title {
   float: right;	
@@ -40,7 +31,9 @@ nav {
   font-weight: bold;
   font-size: 200%;
   color: #fff;
-  margin-right: 25px;
+  margin-right: 15px;
+
+
 /*  text-shadow: 3px 3px #000000;
   font-size: 25px;
   line-height: 100%;
@@ -54,7 +47,7 @@ nav {
 .blog_title .social_links {
   clear: right;	
   float: left;
-  margin-right: 55px;
+  margin-right: 25px;
 }
 
 h1{
@@ -67,7 +60,7 @@ h2{
   color: #000;
 }
 
-.blog_post {
+/*.blog_post {
   margin: 75px 25px 50px 100px;
   padding: 25px;
   background-color: white;
@@ -96,7 +89,7 @@ aside {
   float: right;
   box-shadow: 5px 5px 5px #000000;
   
-}
+}*/
 
 #twitter-widget-0 { 
       width: 100% !important; 

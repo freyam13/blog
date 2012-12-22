@@ -12,4 +12,18 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require_tree .
+
+
+
+$(function() {
+    $( "#tabs" ).tabs({
+        event: "mouseover"
+    });
+});
+
+$(function() {
+    $( "#accordion" ).accordion({ heightStyle: "content" });
+	$( "#accordion" ).accordion( "option", "heightStyle", "content" );
+});

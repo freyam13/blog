@@ -1,4 +1,4 @@
-<div class="blog_post">
+<div class="section">
 <% @posts.sort.reverse.each do |post| %>
     <h2><%= link_to post.title, post_url(post.id) %></h2>
 
@@ -10,18 +10,22 @@
 <% end %>
 </div>
 
-<aside>
+<div class="aside">
+	
+<!-- <aside> -->
 	<h2>Twitter Feed</h2>
 	
 	<a class="twitter-timeline" href="https://twitter.com/chicago_trader" data-widget-id="270964021396639744">Tweets by @chicago_trader</a>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	
-</aside>	
+<!-- </aside>	 -->
 	
-<div class="aside_bottom">
+<!-- <div class="aside_bottom"> -->
 	<h2>Instagram Feed</h2>	
 	
 	<!-- SnapWidget -->
 	<iframe src="http://snapwidget.com/in/?u=ZnJleWFtMTN8aW58MTE1fDJ8NHx8eWVzfDV8bm9uZQ==" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:260px; height: 520px" ></iframe>
 	
-</aside_bottom>
+<!-- </aside_bottom> -->
+
+</div>
