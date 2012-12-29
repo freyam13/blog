@@ -1,4 +1,4 @@
-<div class="blog_post">
+<div class="section">
 
 <%= form_tag "/sessions/create" do %>
 <p class="form">
@@ -8,7 +8,7 @@
   <%= password_field_tag :password %>
   <%= submit_tag "Login"%>
 </p>  
-<p class="form">Not a member? <%= link_to "Click here to register", new_user_url %> 
+<p class="form">Not Aaron Frey? <%= link_to "Click here to return to home page.", new_user_url %> 
 </p>
 <% end %>
 
