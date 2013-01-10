@@ -9,6 +9,7 @@ Blog::Application.routes.draw do
   
   get '/about' => 'static#about'
   get '/projects' => 'static#projects'
+  get '/orbitmedia' => 'static#orbitmedia'
   
   resources :posts
   resources :users

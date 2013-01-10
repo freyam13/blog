@@ -1,0 +1,96 @@
+
+<div class="section_full">
+	
+	<h2>Code Samples for Orbit Media Studios</h2>
+
+     
+			<p>Hello Victoria and everyone else at Orbit Media Studios!</p> 
+			<p>Per your request, I have created 3 code samples that I hope will meet your criteria. Click the headings below to expand the examples.
+				 Also, you can view my GitHub account by clicking the GitHub logo at the top of the page or by visiting 
+				<a href="http://www.github.com/freyam13">http://github.com/freyam13</a>.</p>
+			<p>Thank you again for your time and consideration.</p>
+			<p>Sincerely- Aaron</p>
+		
+
+		<div id="accordion">
+		    <h3>1. HTML/CSS to solve a complicated layout challenge</h3>
+		    <div>
+		        <p>
+		        I find CSS animations to be the pretty challenging so I thought I would attempt to make an animated version of the Orbit Media Studios
+						logo. I hope you like it. For the most part I find HTML and CSS very straightforward. I want to get a lot more hours of coding in so 
+						I can continue to improve my knowledge base and streamline my work flow. A full time position at a company like Orbit Media Studios is 
+						exactly what I need to do that. 
+		        </p>
+				
+				<ul class="orbitmedia">
+				  <li class="center"><span>center</span></li>
+				  <li class="outer"><span>outer</span></li>
+				</ul>
+		
+		    <span style="font-size:100px; position: absolute; top: 535px; left: 415px; color:#c8543c; font-family: 'Gentium Book Basic', serif;">
+				Orbit Media Studios
+				</span>
+		
+		    </div>
+		    <h3>2. Javascript/AJAX custom implementation to solve a usability challenge</h3>
+		    <div>
+		        <p>
+		        Javascript and AJAX are fairly new to me, but I am picking it up quickly. I utilized the jQuery library to create this user interface. 
+						While writing pure Javascript is something I am still learning, I feel completely comfortable utilizing the libraries available and I 			       
+						am continuing to work on it each day. 
+		        </p>
+						
+						<p>
+						Below is the script I used for this accordion feature.
+						</p>
+		
+<pre>
+	$(function() {
+	    $( "#accordion" ).accordion({ heightStyle: "content" });
+		$( "#accordion" ).accordion( "option", "heightStyle", "content" );
+	});
+</pre>
+
+						<p>
+						The amount of code I have to share at this time is somewhat limited which is why I created this page after my phone interview with
+						Victoria on January 9th. In addition to this webpage I wanted to share with you with you all some AJAX code that I have worked on and I 
+						am fairly comfortable with. This is an example of what we built in class at The Starter League. It's a retrospective app that our 
+						instructor Jeff Cohen had created. I do not have this hosted anywhere but you can view the code here to hopefully get a better idea 
+						where my skill set lies. 
+						</p>
+						
+						<a href="https://github.com/freyam13/ajax_example.git" target="_blank"><strong>AJAX Example</strong></a>
+						
+		    </div>
+		    <h3>3. PHP to build a custom feature</h3>
+		    <div>
+		        <p>
+		        As I mentioned in my phone interview, I do not have any training in PHP, but I have worked with Wordpress extensively. After my time
+						at The Starter League I am picking it up much more quickly. Aside from the syntactical differences from Ruby, I think I have a good 
+						grasp on PHP conceptually. Prior to today I haven't written any PHP completely on my own so hope my limited example will demonstrate my 
+						ability to learn as I go.
+		        </p>
+		
+						<p>
+						I need to create a contact form for an existing static website. Rather than converting the whole site into a Rails application I 
+						saw this as an opportunity to use PHP to create a basic contact form. It's not very customized, but I'm still learning. I hope I get a 
+						chance to show you what I can offer.
+						</p>
+		
+<pre><xmp><?php if(isset($_POST['submit'])) {
+		$to = "me@aaronfrey.com";
+		$subject = "Contact Form Message";
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$message = $_POST['message'];
+		$body = "From: $name\n Email: $email\n Message:\n $message";
+	echo "Your message has been sent to $to.";
+	mail($to, $subject, $body);}
+else { 
+	echo "Something went wrong, your message did not send.";}?>
+</xmp></pre>
+		    </div>
+		</div>
+
+
+</div>
